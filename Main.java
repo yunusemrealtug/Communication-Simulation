@@ -39,7 +39,6 @@ public class Main {
 		customers = new Customer[C];
 		operators = new Operator[O];
 
-		//DO_NOT_EDIT_ANYTHING_ABOVE_THIS_LINE
 		PrintStream outstream1;
 		try {
 			outstream1 = new PrintStream(outFile);
@@ -192,7 +191,6 @@ public class Main {
 		outstream1.print(mostNetwork);
 		outstream1.print(" : ");
 		outstream1.printf("%.2f", netSorting);
-		//DO_NOT_EDIT_ANYTHING_BELOW_THIS_LINE
 	} 
 }
 
